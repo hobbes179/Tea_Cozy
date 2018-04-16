@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.anchor {
+  padding-top: 69px;
+}
+
 html {
   font-family: Helvetica;
   font-size: 22px;
@@ -52,14 +56,7 @@ img.logo {
 
 /* Main Body Styles */
 .main {
-  margin-top: 69px;
   align-items: center;
-}
-
-.mission,
-.totm,
-.locations {
-  margin-bottom: 60px;
 }
 
 .mission {
@@ -87,10 +84,13 @@ img.logo {
 }
 
 .menuitem {
-  height: 200px;
   width: 300px;
   text-align: center;
   margin: 15px;
+}
+
+.menuitem img {
+  height: 200px;
 }
 
 .locbg {
@@ -122,11 +122,15 @@ img.logo {
   justify-content: flex-start;
 }
 
+.fullblackbox h2 {
+  margin-bottom: 40px;
+}
+
 .fullblackbox h5 {
-  margin: 15px;
+  margin-bottom: 25px;
 }
 
 .legal {
   text-align: left;
-  margin: 20px;
+  padding: 20px;
 }
