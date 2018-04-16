@@ -1,0 +1,110 @@
+/* Basic Settings */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+}
+
+.flex {
+  display:flex;
+}
+
+.column {
+  flex-direction: column;
+}
+
+/* Header Styles */
+header {
+  border-bottom: 1px solid seashell;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: black;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 69px;
+  z-index: 2;
+}
+
+nav a {
+  color:seashell;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+img.logo {
+  display: block;
+  max-height: 50px;
+  margin-left: 10px;
+}
+
+/* Main Body Styles */
+.main {
+  margin-top: 69px;
+  align-items: center;
+}
+
+.mission,
+.totm,
+.locations {
+  margin-bottom: 60px;
+}
+
+.mission {
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+}
+
+.fullblackbox {
+  background-color: black;
+  width: 100%;
+  height: 103px;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.fullblackbox h2,
+.fullblackbox h4 {
+  margin: 10px;
+}
+
+.specialtea {
+  width: 1000px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.menuitem {
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  margin: 15px;
+}
+
+.locbg {
+  height: 500px;
+  width: 1200px;
+  text-align: center;
+  justify-content: flex-start;
+}
+
+.locbg h2 {
+  margin-top: 60px;
+}
+
+.smallblackbox {
+  background-color: black;
+}
